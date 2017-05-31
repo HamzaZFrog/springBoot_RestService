@@ -1,4 +1,0 @@
-#!/bin/bash 
-
-# exec spring boot jar
-java -jar /opt/myApp/gs-rest-service-0.1.0.jar 
