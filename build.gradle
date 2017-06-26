@@ -14,16 +14,15 @@ apply plugin: 'org.springframework.boot'
 
 jar {
     baseName = 'app-back'
-    version =  '0.2.0'
 }
 
 repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-project.version = 0.2.0
+sourceCompatibility = mySourceCompatibility
+targetCompatibility = myTargetCompatibility
+project.version = myVersion
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
