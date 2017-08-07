@@ -63,8 +63,8 @@
                             </artifactory>
                             <publisher>
                                 <contextUrl>${ay_host}</contextUrl>
-                                <username>${username}</username>
-                                <password>${password}</password>
+                                <username>admin</username>
+                                <password>password</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
