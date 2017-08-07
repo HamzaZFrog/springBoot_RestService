@@ -70,9 +70,9 @@
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                             </publisher>
                             <buildInfo>
-                                <buildName>plugin-demo</buildName>
-                                <buildNumber>1</buildNumber>
-                                <buildUrl>http://build-url.org</buildUrl>
+                                <buildName>${build_name}</buildName>
+                                <buildNumber>${build_id}</buildNumber>
+                                <buildUrl>${build_url}</buildUrl>
                             </buildInfo>
                             <licenses>
                                 <autoDiscover>true</autoDiscover>
