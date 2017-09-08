@@ -15,7 +15,8 @@ public class MoodController {
         "Tears are words that need to be written.",
         "Anger is one letter short of danger.",
         "An empty stomach is not a good political adviser.",
-        "Drink in the moon as though you might die of thirst."
+        "Drink in the moon as though you might die of thirst.",
+        "Winter is coming."
     };
 
     @RequestMapping("/getMood")
