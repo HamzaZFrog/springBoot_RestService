@@ -79,7 +79,7 @@
                                 <includePublishedArtifacts>false</includePublishedArtifacts>
                                 <runChecks>true</runChecks>
                                 <scopes>compile,runtime</scopes>
-                                <violationRecipients>build@organisation.com</violationRecipients>
+                                <violationRecipients>yannc@jfrog.com</violationRecipients>
                             </licenses>
                         </configuration>
                     </execution>
