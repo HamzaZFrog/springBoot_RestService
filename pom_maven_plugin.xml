@@ -76,9 +76,9 @@
                             </buildInfo>
                             <licenses>
                                 <autoDiscover>true</autoDiscover>
-                                <includePublishedArtifacts>false</includePublishedArtifacts>
+                                <includePublishedArtifacts>true</includePublishedArtifacts>
                                 <runChecks>true</runChecks>
-                                <scopes>compile,runtime</scopes>
+                                <scopes>compile,runtime,test</scopes>
                                 <violationRecipients>yannc@jfrog.com</violationRecipients>
                             </licenses>
                         </configuration>
