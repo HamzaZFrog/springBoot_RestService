@@ -13,12 +13,12 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
 
         //Check for the latest version here: http://plugins.gradle.org/plugin/com.jfrog.artifactory
-        classpath("org.jfrog.buildinfo:build-info-extractor-gradle:4.5.2")
+        //classpath("org.jfrog.buildinfo:build-info-extractor-gradle:4.5.2")
 
     }
 }
 
-apply plugin: "com.jfrog.artifactory"
+//apply plugin: "com.jfrog.artifactory"
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
@@ -38,7 +38,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
-
+/*
 artifactory {
     contextUrl = "${artifactory_contextUrl}"   //The base Artifactory URL if not overridden by the publisher/resolver
     publish {
@@ -60,3 +60,4 @@ artifactory {
         }
     }
 }
+*/
